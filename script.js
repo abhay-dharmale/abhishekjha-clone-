@@ -1,6 +1,3 @@
-
-
-
 function revealElements() {
   document.querySelectorAll(".reveal")
     .forEach(function (elem) {
@@ -95,7 +92,6 @@ function svgAnime(){
     ease: "power3.inOut",
   })
 }
-
 
 function homePageAnime(){
   let tl = gsap.timeline();
@@ -192,7 +188,6 @@ function hoverCard2() {
 hoverCard1();
 hoverCard2();
 
-
 function locomotiveSCroll(){
   gsap.registerPlugin(ScrollTrigger);
 
@@ -231,4 +226,3 @@ function locomotiveSCroll(){
 
 }
 locomotiveSCroll()
-
